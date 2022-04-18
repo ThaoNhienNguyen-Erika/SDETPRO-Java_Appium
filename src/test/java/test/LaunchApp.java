@@ -17,7 +17,7 @@ public class LaunchApp {
             DesiredCapabilities desiredCaps = new DesiredCapabilities();
             desiredCaps.setCapability("platformName", "Android");
             desiredCaps.setCapability("automationName", "uiautomator2");
-            desiredCaps.setCapability("udid", "RFCNB05E2XN");
+            desiredCaps.setCapability("udid", "RFCNB05E2XN"); //RFCNB05E2XN //192.168.1.8:1234
             desiredCaps.setCapability("appPackage", "com.wdiodemoapp");
             desiredCaps.setCapability("appActivity", "com.wdiodemoapp.MainActivity");
 
